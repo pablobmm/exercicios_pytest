@@ -31,3 +31,6 @@ def test_calcular_media_float():
 def test_e_positivo_caminhos():
     assert e_positivo(5) is True
     assert e_positivo(-2) is False
+
+def test_calcular_media_lista_vazia():
+    assert calcular_media([]) == 0
